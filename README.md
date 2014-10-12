@@ -4,7 +4,7 @@
 2. Put VLC and rtmp inside the Livestreamer folder (in this guide: **livestreamer\vlc** and **livestreamer\rtmpdump**)
 3. Create a .cmd file inside the Livestreamer folder with following contents (**replace twitch.tv/... with any other Twitch link**):
 ```
-livestreamer twitch.tv/... source --rtmpdump=rtmpdump\rtmpdump.exe --player="vlc\vlc.exe --file-caching=10000" --player-passthrough=http,hls,rtmp
+livestreamer twitch.tv/... source --rtmpdump=rtmpdump\rtmpdump.exe --player="vlc\vlc.exe --file-caching=10000 --network-caching 6000" --player-passthrough=http,hls,rtmp
 ```
 4. Start the .cmd file you just created to watch the stream.
 
@@ -27,7 +27,7 @@ livestreamer youtube.com/watch?v=...
 For Twitch, **source** quality is available on all streams.
 
 #Player settings
-This guide uses VLC binaries for maximum compatibility with file cache set to 10 seconds for less buffering.
+This guide uses VLC binaries for maximum compatibility with cache sizes tweaked to reduce buffering.
 
 #Why?  
 ###Why download binaries separately?  
