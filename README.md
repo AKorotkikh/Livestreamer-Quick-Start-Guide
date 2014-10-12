@@ -1,3 +1,4 @@
+#This guide is made for Windows users.
 #TL;DR
 1. Download VLC, rtmpdump and Livestreamer binaries
 2. Put VLC and rtmp inside the Livestreamer folder (in this guide: **livestreamer\vlc** and **livestreamer\rtmpdump**)
@@ -8,9 +9,9 @@ livestreamer twitch.tv/... source --rtmpdump=rtmpdump\rtmpdump.exe --player="vlc
 4. Start the .cmd file you just created to watch the stream.
 
 #Binaries:
-**Livestreamer**(windows): http://livestreamer.readthedocs.org/en/latest/install.html - **Zip archive** link  
-**VLC**(windows): https://www.videolan.org/vlc/download-windows.html - any of the two archived 32-bit packages  
-**rtmpdump**(windows): https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.4-git-010913-windows.zip  
+**Livestreamer**: http://livestreamer.readthedocs.org/en/latest/install.html - **Zip archive** link  
+**VLC**: https://www.videolan.org/vlc/download-windows.html - any of the two archived 32-bit packages  
+**rtmpdump**: https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.4-git-010913-windows.zip  
 
 #Stream link format
 Livestreamer supports many different streaming services, not just Twitch (full list at http://livestreamer.readthedocs.org/en/latest/plugin_matrix.html).  
